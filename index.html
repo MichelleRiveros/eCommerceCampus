@@ -4,28 +4,20 @@
 		<meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylecarrito.css">
         <link rel="shortcut icon" href="storage/img/gloss1.png" type="image/png">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
         <title>Rivers</title>
 	</head>
 
 <body>
-
     <header>
         <div class="container-cero">
-                <div class="container-logo"><h1>Rivers</h1></div>
-
-                <input type="checkcarrito" id="checkcarrito">
-                <label for="checkcarrito" class="mostrar-carrito">
-                    &#8801;
-                </label>
-                
-                <div class="menu">
-                    <a href="carrito.html"></a>
-                    <label for="check" class="esconder-menu">
-                        &#215;
-                    </label>
+                <div class="container-logo"><h1>Riversss</h1>
+                    <i id="show" class='bx bx-cart'><sup>4</sup></i>
                 </div>
         </div>
+
     </header>
 
     <nav class="scroll"> 
@@ -97,7 +89,125 @@
                 <span>Mejores Vendidos</span>
             </div>
     
-    
+            <dialog  id="dialog">
+                
+                <div class="carrito">
+
+                    <h1>Detalles</h1>
+            
+                    <div class="scroller">
+            
+                        <!-- PRIMER PRODUCTO -->
+                        <div class="car">
+                            <div class="a"></div>
+            
+                            <div class="columna">
+                                <div class="maincontent">
+                                    <h3 class="about">BOLSO GUCCI</h3>
+                                    <div class="cuadradito">
+                                        <input type="text">
+                                    </div>
+                                </div>
+            
+                                <div class="descripcion">
+                                    <div class="precio">
+                                        <h2>$ 100.000</h2>
+                                    </div>
+                                    <div class="precio">
+                                        <h5>$ 99.99</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+           
+                    <!-- SEGUNDO PRODUCTO -->
+                    <div class="car">
+                        <div class="b"></div>
+                            <div class="columna">
+                                <div class="maincontent">
+                                    <h3 class="about">BUFANDA HERMES</h3>
+                                    <div class="cuadradito">
+                                        <input type="text">
+                                    </div>
+                                </div>
+
+                                <div class="descripcion">
+                                    <div class="precio">
+                                        <h2>$ 100.000</h2>
+                                    </div>
+                                    <div class="precio">
+                                        <h5>$ 99.99</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TERCER PRODUCTO -->
+                        <div class="car">
+                            <div class="c"></div>
+
+                            <div class="columna">
+                                <div class="maincontent">
+                                    <h3 class="about">Air Pods</h3>
+                                    <div class="cuadradito">
+                                        <input type="text">
+                                    </div>
+                                </div>
+
+                                <div class="descripcion">
+                                    <div class="precio">
+                                        <h2>$ 100.000</h2>
+                                    </div>
+                                    <div class="precio">
+                                        <h5>$ 99.99</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CUARTO PRODUCTO -->
+                        <div class="car">
+                            <div class="d"></div>
+
+                            <div class="columna">
+                                <div class="maincontent">
+                                    <h3 class="about">ROLEX DYMONT</h3>
+                                    <div class="cuadradito">
+                                        <input type="text">
+                                    </div>
+                                </div>
+
+                                <div class="descripcion">
+                                    <div class="precio">
+                                        <h2>$ 100.000</h2>
+                                    </div>
+                                    <div class="precio">
+                                        <h5>$ 99.99</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                    <div class="container-total">
+
+                        <div class="h">Total</div>
+                        <div class="maincontent">
+                            <h3 class="about">$ 400.000</h3>
+                            <div class="order">
+                                <button>Obtener</button>
+                            </div>
+                        </div>
+                    </div>
+            
+            <button id="hide">x</button>
+            </div>
+
+            
+            </dialog>
+            <button >Mostrar modal</button>
+
         <section class="gallery">
             <img
                 src="/storage/img/inicio/gafas.png"
@@ -168,5 +278,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="js/main.js"></script>
 </body>
 </html>    

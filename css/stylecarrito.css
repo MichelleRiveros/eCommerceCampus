@@ -13,9 +13,11 @@ body{
     display: flex;
     justify-content: center;
     color: #662a2a;
+    font-size: 30px;
+    
 }
 
-section{
+.car{
     display: flex;
     justify-content: center;
     background:  #cf8282e1;;
@@ -32,36 +34,36 @@ section{
     align-items: center;
     overflow-y: scroll;
     width: 100%;
-    height: 60vh;
 }
 
 
 input{
-    height: 25px;
+    width: 8vw;
     border: 4px solid #662a2a; /* Establece un borde de 1px de grosor y color gris */
-    padding: 8px; /* Añade un espacio de 8px entre el contenido y el borde */
-    
+    padding: 2px; /* Añade un espacio de 8px entre el contenido y el borde */
     outline: none;  
 }
 
-section .columna{
+.car .columna{
     align-items: center;
+    gap: 15px;
     display: flex;
     width: 50%;
 }
 
-section .descripcion{
+.car .descripcion{
     gap: 20px;
     color:#662a2a;
     display: flex;
     align-items: end;
+    font-size: 65px;
     height: 55%;
 }
 
 
 /* PRODUCTOS */
 
-section .a{
+.car .a{
     display: flex;
     background-image: url('../storage/img/gucci/bolso1.png');
     justify-content: end;
@@ -71,7 +73,7 @@ section .a{
     background-repeat: no-repeat;
 }
 
-section .b{
+.car .b{
     display: flex;
     background-image: url('../storage/img/hermes/bufanda1.jpeg');
     justify-content: end;
@@ -81,7 +83,7 @@ section .b{
     background-repeat: no-repeat;
 }
 
-section .c{
+.car .c{
     display: flex;
     background-image: url('../storage/img/apple/audifonos1.png');
     justify-content: end;
@@ -91,7 +93,7 @@ section .c{
     background-repeat: no-repeat;
 }
 
-section .d{
+.car .d{
     display: flex;
     background-image: url('../storage/img/rolex/diamantes1.png');
     justify-content: end;
@@ -111,21 +113,18 @@ section .d{
     height: 14vh;
     width: 90%;
     margin-top: 20px;
-    align-items: center;}
+    align-items: center;
+}
 
 .container-total .h{
     justify-content: end;
     padding-right: 2vw;
-    font-size: 30px;
+    font-size: 40px;
     color: #662a2a;
     width: 20%;
-
 }
 
-
-
-
-.main-content .about{
+.maincontent .about{
     color: #662a2a;
     font-size: 25px;
     margin: 0;
@@ -136,8 +135,67 @@ section .d{
     padding: 0 5px;
     border: none;
     background:rgba(255, 212, 212);
-    color: white;
-    font-size: 30px;
+    color: #662a2a;
+    font-size: 25px;
     transition: 0.1s linear;
 }
 
+/*BOTON DE SALIR DEL CARRITO */
+
+#hide {
+    min-width: 25%;
+    padding: 0 5px;
+    border: none;
+    background:rgba(255, 212, 212);
+    color: #662a2a;
+    font-size: 25px;
+    transition: 0.1s linear;
+}
+
+@media(max-width: 760px){
+
+
+    #hide {
+        font-size: 15px;
+    }
+
+    .order button{
+        font-size: 10px;
+    }
+
+    .maincontent .about{
+        font-size: 5px;
+    }
+
+    .container-total .h{
+        font-size: 20px;
+    }
+    
+    .container-total{
+        height: 7vh;
+        margin-top: 5px;
+    }
+
+    .car .descripcion{
+        gap: 10px;
+        font-size: 40px;
+        height: 95%;
+    }
+
+    .car .columna{
+        align-items: center;
+        gap: 15px;
+        display: flex;
+        width: 50%;
+    }
+
+    input{
+        width: 9vw;
+        height: 2vh;
+    }
+
+    .carrito h1{
+        font-size: 20px;
+    }
+
+}
