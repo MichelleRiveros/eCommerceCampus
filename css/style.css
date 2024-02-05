@@ -32,9 +32,7 @@
 .container-cero {
 	background-color: rgba(255, 212, 212, 0.372);
 	display: flex;
-	justify-content: space-between;
-    justify-content: center;
-	align-items: center;
+	justify-content: space-around;
 	padding: 2rem 0;
 }
 
@@ -52,6 +50,49 @@
 	text-transform: uppercase;
 	letter-spacing: -1px;
 }
+
+
+/* CARRITO*/
+
+
+.mostrar-carrito,
+.esconder-menu {
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+.mostrar-carrito {
+    order: 1;
+}
+
+.esconder-menu {
+    position: absolute;
+}
+
+
+#check {
+    display: none;
+}
+
+.esconder-menu {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+
+#checkcarrito:checked~.menu {
+	right: 0;
+}
+
+
+
+
+
+
+
+
 
 /*MENU*/
 
