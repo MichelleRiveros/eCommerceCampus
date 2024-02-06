@@ -17,3 +17,5 @@ Para la realizacion de la pagina se implemento flex y grid, la maquetacion se re
 !['Computadora'](https://github.com/MichelleRiveros/x/blob/main/storage/videos/Grabacindepantalladesde2024-02-0521-21-46-ezgif.com-video-to-gif-converter.gif)
 
 !['Celular'](https://github.com/MichelleRiveros/x/blob/main/storage/videos/WhatsAppVideo2024-02-05at9.37.41PM-ezgif.com-video-to-gif-converter.gif)
+
+!['Celular'](https://github.com/MichelleRiveros/eCommerceCampus/blob/main/storage/img/Captura%20desde%202024-02-06%2006-36-16.png)
