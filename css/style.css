@@ -421,6 +421,39 @@ dialog{
 }
 
 
+dialog .dialogproducto h1{
+	color:#662a2a
+}
+
+dialog .dialogproducto p{
+	color:  rgba(226, 171, 171, 0.667);
+}
+
+
+.dialogproducto #hide {
+    padding: 0 5px;
+    border: none;
+    background:rgba(255, 212, 212);
+    color: #662a2a;
+    font-size: 15px;
+    transition: 0.1s linear;
+}
+
+@media(min-width: 800px){
+
+	.dialogproducto #hide {
+		font-size: 35px;
+	}
+
+	dialog .dialogproducto h1{
+		font-size: 40px;
+	}
+	
+	dialog .dialogproducto p{
+		font-size: 25px;
+	}
+}
+
 
 @media(max-width: 760px){
 
